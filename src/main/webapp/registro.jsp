@@ -22,15 +22,15 @@
         <div class="row">
             <p>
             <div class="col-3">
-                <%--@declare id="nombreu"--%><label for="nombreU" class="form-label" name="nombreU">Nombre Usuario</label>
-                <input type="text" class="form-control" id="nombreU" required maxlength="50" autocomplete autofocus placeholder="Indica tu nombre"></p>
+                <%--@declare id="nombreu"--%><%--@declare id="usern"--%><label for="userN" class="form-label" >Nombre Usuario</label>
+                <input type="text" class="form-control" id="userN" required maxlength="50"  name="userU" autocomplete autofocus placeholder="Indica tu nombre"></p>
                 <div id="nombreU" class="form-text"></div>
             </div>
         </div>
         <div class="row">
             <div class="col-3">
-                <%--@declare id="passu"--%><label for="passU" class="form-label" name="passU">Contraseña</label>
-                <input type="password" class="form-control" id="passU">
+                <%--@declare id="passu"--%><label for="passU" class="form-label" >Contraseña</label>
+                <input type="password" class="form-control" id="passU" name="passU" required>
             </div>
         </div>
 

@@ -21,13 +21,13 @@
 <div class="container">
     <h4 class="row">Modificacion</h4>
     <div class="col-3">
-        <label for="nombre" class="form-label">Nombre y Apellidos</label>
-        <input type="text" class="form-control" id="nombre" name="nombre" required maxlength="50"
+        <label for="userN" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="userN" name="userN" required maxlength="50"
                value='<c:out value="${nombreU}"></c:out>'>
         <div class="invalid-feedback">
             Nombre requerido!
-            <label for="curso" class="form-label">Curso</label>
-            <input type="text" class="form-control" id="curso" name="passU" required maxlength="2"
+            <label for="passU" class="form-label">Password</label>
+            <input type="text" class="form-control" id="passU" name="passN" required maxlength="2"
                    value='<c:out value="${passU}"></c:out>' >
             <div class="invalid-feedback">
                 Curso requerido!
