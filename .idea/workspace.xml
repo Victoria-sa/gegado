@@ -9,17 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31b8d08c-e9d5-445f-a0d3-aafb04444ba3" name="Changes" comment="si">
+    <list default="true" id="31b8d08c-e9d5-445f-a0d3-aafb04444ba3" name="Changes" comment="s">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cursoceat/gegado/Controlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cursoceat/gegado/Controlador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modell/Controlador.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/actualizacion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/actualizacion.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/categorias.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/categorias.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/gestion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/gestion.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/dollar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/fondogegado.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/fondogegado2.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/registro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/registro.jsp" afterDir="false" />
     </list>
@@ -192,7 +185,7 @@
       <workItem from="1686726769577" duration="17833000" />
       <workItem from="1686810156516" duration="18534000" />
       <workItem from="1686831947424" duration="82000" />
-      <workItem from="1686898613673" duration="14911000" />
+      <workItem from="1686898613673" duration="15693000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1686737536146</created>
@@ -236,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686900753401</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="s">
+      <created>1686915646319</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686915646319</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,7 +256,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ok" />
     <MESSAGE value="si" />
-    <option name="LAST_COMMIT_MESSAGE" value="si" />
+    <MESSAGE value="s" />
+    <option name="LAST_COMMIT_MESSAGE" value="s" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -273,7 +274,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/webapp/actualizacion.jsp</url>
-          <line>61</line>
+          <line>59</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -283,12 +284,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/webapp/index.jsp</url>
-          <line>32</line>
+          <line>30</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/webapp/index.jsp</url>
-          <line>30</line>
+          <line>28</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -318,17 +319,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/webapp/index.jsp</url>
-          <line>21</line>
+          <line>20</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/webapp/index.jsp</url>
-          <line>23</line>
+          <line>21</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/webapp/index.jsp</url>
-          <line>24</line>
+          <line>23</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

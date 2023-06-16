@@ -17,20 +17,17 @@
     <fieldset>
         <legend class="text-light">Datos Personales</legend>
         <div class="row">
-            <div class="col-sm-12 col-xl-3">
-                <div class="mb-3">
+            <div class="col-sm-12 col-xl-3 mb-3">
         <label for="userN"class="form-label text-light">Nombre Usuario</label>
         <input type="text" class="form-control" id="userN" name="userN" required maxlength="50" autocomplete autofocus placeholder="Indica tu nombre">
-                    <div id="nombreU" class="form-text"></div></div>
-    </div>
+                <div id="nombreU" class="form-text"></div>
+        </div>
         </div>
     <div class="row" >
-        <div class="col-sm-12 col-xl-3">
-            <div class="mb-3">
+        <div class="col-sm-12 col-xl-3 mb-3">
         <label for="passU" class="form-label text-light">Password</label>
         <input type="password" class="form-control" id="passU" name="passU" required>
             </div>
-    </div>
     </div>
     </fieldset>
     <div class="row mb-1">

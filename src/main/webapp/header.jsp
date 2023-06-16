@@ -22,7 +22,7 @@
   <div style="background-color:black;color:white;padding:20px;" class="rounded-pill">
   <img src="img/ggd.jpg" class="img-thumbnail rounded-pill" alt="5" width="60">
     <div class="mx-auto p-2" style="width: 20px;">
-  <a href="registro.jsp" style="padding-right:80%;">Registro</a></div>
+  <a href="registro.jsp" style="padding-right:100%;">Registro</a></div>
   </div>
 </div>
 </body>

@@ -31,29 +31,27 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-12 col-xl-3">
-                <div class="mb-3">
+            <div class="col-sm-12 col-xl-3 mb-3">
                 <label for="passU" class="form-label">Password</label>
             <input type="password" class="form-control" name="passU" required>
-                    <div id="passU" class="form-text"></div></div>
+                    <div id="passU" class="form-text">
+                    </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-12 col-xl-3">
-                <div class="mb-3">
+            <div class="col-sm-12 col-xl-3 mb-3">
                 <label for="passU2" class="form-label">Repetir Password</label>
                 <input type="password" class="form-control" id="passU2" name="passU" required>
-                    <div  class="form-text"></div></div>
+                    <div  class="form-text"></div>
             </div>
         </div>
 <div class="row">
-    <div class="col-sm-12 col-xl-3">
-        <div class="mb-3">
+    <div class="col-sm-12 col-xl-3 mb-3">
     <button type="submit" class="btn btn-primary" href="actualizacion.jsp">Registrar</button>
     </div>
     <div class="col-sm-12 col-xl-3">
         <a type="button" class="btn btn-primary" href="index.jsp">Cancelar</a>
-    </div></div>
+    </div>
 </div>
     </fieldset>
 </form>
