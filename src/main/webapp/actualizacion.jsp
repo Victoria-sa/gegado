@@ -10,7 +10,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta name="autor"content="Victoria Sevilla">
+    <meta name="autor"content="Trabajo Equipo">
     <meta charset="UTF-8">
     <title>GEGADO</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -23,19 +23,20 @@
         <fieldset>
             <legend>Datos Personales</legend>
             <div class="row">
-                <p>
                 <div class="col-sm-12 col-xl-3">
+                    <div class="mb-3">
                     <label for="userN" class="form-label" >Nombre Usuario</label>
                     <input type="text" class="form-control" id="userN" required maxlength="50"  name="userU" autocomplete autofocus placeholder="Indica tu nombre"></p>
                     <div id="nombreU" class="form-text"></div>
                 </div>
-            </div>
+            </div></div>
             <div class="row">
                 <div class="col-sm-12 col-xl-3">
+                    <div class="mb-3">
                     <label for="passU" class="form-label">Password</label>
                     <input type="password" class="form-control" id="passU" name="passU" required>
                 </div>
-            </div>
+            </div></div>
             <div class="row">
                 <div class="col-sm-12 col-xl-3">
                     <label for="passU2" class="form-label">Repetir Password</label>
@@ -43,7 +44,7 @@
                 </div>
             </div>
         </fieldset>
-        <div class="row mx-auto">
+        <div class="row">
             <div class="col-sm-12 col-xl-3">
                 <button type="submit" class="btn btn-primary" href="actualizacion.jsp">Registrar</button>
             </div>
@@ -70,8 +71,6 @@
             }, false)
         })
     })()
-
 </script>
 </body>
-
 </html>

@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta name="autor"content="Victoria Sevilla">
+    <meta name="autor"content="Trabajo Equipo">
     <meta charset="UTF-8">
     <title>GeGaDo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -15,21 +15,21 @@
 <h2 class="text-light">GEGADO</h2>
 <form action="Controlador" class="row g-3 needs-validation" novalidate method="post">
     <fieldset>
-
         <legend class="text-light">Datos Personales</legend>
-
         <div class="row">
-        <p>
             <div class="col-sm-12 col-xl-3">
+                <div class="mb-3">
         <label for="userN"class="form-label text-light">Nombre Usuario</label>
-        <input type="text" class="form-control" id="userN" name="userN" required maxlength="50" autocomplete autofocus placeholder="Indica tu nombre"></p>
-        <div id="nombreU" class="form-text"></div>
+        <input type="text" class="form-control" id="userN" name="userN" required maxlength="50" autocomplete autofocus placeholder="Indica tu nombre">
+                    <div id="nombreU" class="form-text"></div></div>
     </div>
         </div>
     <div class="row" >
         <div class="col-sm-12 col-xl-3">
+            <div class="mb-3">
         <label for="passU" class="form-label text-light">Password</label>
         <input type="password" class="form-control" id="passU" name="passU" required>
+            </div>
     </div>
     </div>
     </fieldset>
@@ -63,7 +63,6 @@
             }, false)
         })
     })()
-
 </script>
 </body>
 </html>

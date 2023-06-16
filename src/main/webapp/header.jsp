@@ -10,15 +10,20 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta name="autor"content="Victoria Sevilla">
+  <meta name="autor"content="Trabajo Equipo">
   <meta charset="UTF-8">
   <title>GEGADO</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   <link type="text/css" rel="stylesheet" href="css/style.css">
-</head>
-
 <body>
-
+</head>
+<div class="opacity-20%">
+  <div style="background-color:black;color:white;padding:20px;" class="rounded-pill">
+  <img src="img/ggd.jpg" class="img-thumbnail rounded-pill" alt="5" width="60">
+    <div class="mx-auto p-2" style="width: 20px;">
+  <a href="registro.jsp" style="padding-right:80%;">Registro</a></div>
+  </div>
+</div>
 </body>
 </html>
