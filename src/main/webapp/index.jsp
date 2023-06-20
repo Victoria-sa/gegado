@@ -5,14 +5,14 @@
 <head>
     <meta name="autor"content="Trabajo Equipo">
     <meta charset="UTF-8">
-    <title>GeGaDo</title>
+    <jsp:include page="header.jsp"></jsp:include>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <link type="text/css" rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div class="container container-sm">
-<h2 class="text-light">GEGADO</h2>
+<h2 class="text-light"></h2>
 <form action="Controlador" class="row g-3 needs-validation" novalidate method="post">
     <fieldset>
         <legend class="text-light">Datos Personales</legend>
@@ -34,7 +34,7 @@
      <div class="p-2 col-2">
          <button type="submit" class="btn btn-primary " >Enviar</button></div>
          <div class="p-2 col-2">
-    <a href="registro.jsp" class="btn btn-primary" type="button">Registrar</a></div>
+    <a href="registro.jsp" class="btn btn-primary">GEGADO</a></div>
         <div class="p-2 col-2">
             <a href="actualizacion.jsp" class="btn btn-primary" type="button">Olvidé contraseña</a></div>
 </div>

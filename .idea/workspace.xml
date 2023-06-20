@@ -10,11 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31b8d08c-e9d5-445f-a0d3-aafb04444ba3" name="Changes" comment="s">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1f3d0275-3091-4236-8c4f-0ee42f9f93af.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1f3d0275-3091-4236-8c4f-0ee42f9f93af.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/actualizacion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/actualizacion.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/registro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/registro.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.gutterIcons",
+    "settings.editor.selected.configurable": "proofread",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -185,7 +184,8 @@
       <workItem from="1686726769577" duration="17833000" />
       <workItem from="1686810156516" duration="18534000" />
       <workItem from="1686831947424" duration="82000" />
-      <workItem from="1686898613673" duration="15693000" />
+      <workItem from="1686898613673" duration="15950000" />
+      <workItem from="1687242534563" duration="2780000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1686737536146</created>
@@ -236,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686915646319</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="s">
+      <created>1686916510877</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686916510877</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,11 +303,6 @@
           <url>file://$PROJECT_DIR$/src/main/webapp/actualizacion.jsp</url>
           <line>25</line>
           <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/gestion.jsp</url>
-          <line>22</line>
-          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/webapp/gestion.jsp</url>
@@ -383,5 +385,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
