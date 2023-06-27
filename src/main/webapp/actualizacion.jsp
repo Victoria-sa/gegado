@@ -4,13 +4,19 @@
   Date: 14/06/2023
   Time: 9:37
   To change this template use File | Settings | File Templates.
+<%--
+  Created by IntelliJ IDEA.
+  User: PROGRAMACION
+  Date: 16/06/2023
+  Time: 9:44
+  To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ page contentType="text/html; ISO-8859-1" language="java" pageEncoding="iso-8859-1" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta name="autor"content="Trabajo Equipo">
+    <meta name="autor"content="Trabajo equipo">
     <meta charset="UTF-8">
     <title>GEGADO</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -22,6 +28,7 @@
     <form class="row g-3 needs-validation" novalidate>
         <fieldset>
             <legend>Datos Personales</legend>
+
             <div class="row">
                 <div class="col-sm-12 col-xl-3 mb-3">
                     <label for="userN" class="form-label" >Nombre Usuario</label>
@@ -29,24 +36,29 @@
                     <div id="nombreU" class="form-text"></div>
                 </div>
             </div>
+
+
             <div class="row">
                 <div class="col-sm-12 col-xl-3 mb-3">
                     <label for="passU" class="form-label">Password</label>
                     <input type="password" class="form-control" id="passU" name="passU" required>
                 </div>
             </div>
+
             <div class="row">
-                <div class="col-sm-12 col-xl-3">
+                <div class="col-sm-12 col-xl-3 mb-3">
                     <label for="passU2" class="form-label">Repetir Password</label>
                     <input type="password" class="form-control" id="passU2" name="passU" required>
                 </div>
             </div>
+
         </fieldset>
         <div class="row">
             <div class="col-sm-12 col-xl-3">
                 <button type="submit" class="btn btn-primary" href="actualizacion.jsp">Registrar</button>
             </div>
         </div>
+
     </form>
 </div>
 <script>
@@ -69,6 +81,8 @@
             }, false)
         })
     })()
+
 </script>
 </body>
+
 </html>
